@@ -8,9 +8,9 @@ import SettingsPage from './views/SettingsPage.vue'
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
   { path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
-  { path: '/employees/:id', name: 'CardDetails', component: CardDetails }
-  { path: '/login', name: 'LoginPage', component: LoginPage }
-  { path: '/settings', name: 'SettingsPage', component: SettingsPage }
+  { path: '/employees/:id', name: 'CardDetails', component: CardDetails },
+  { path: '/login', name: 'LoginPage', component: LoginPage },
+  { path: '/settings', name: 'SettingsPage', component: SettingsPage },
 ]
 
 const router = createRouter({
